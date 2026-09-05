@@ -1,0 +1,1021 @@
+{
+  "title": "KTU M.Tech CSE Resource Registry",
+  "source": "Uploaded S1-S4COMPUTERSCIENCEANDENGINEERING.pdf",
+  "scope": "Theory courses, program electives, interdisciplinary electives, labs, mini-project and dissertation/project resources. Semester III audit-course names are catalogued separately.",
+  "resource_policy": {
+    "notes": "Prefer university-quality lecture notes, open textbooks, official technical documentation, or authoritative standards.",
+    "lectures": "Prefer NPTEL/SWAYAM, MIT OCW, Stanford or equivalent university-level lecture material.",
+    "copyright": "Links point to legitimate public sources; do not mirror copyrighted PDFs in the app."
+  },
+  "courses": [
+    {
+      "code": "221TCS100",
+      "name": "ADVANCED MACHINE LEARNING",
+      "modules": [
+        "Module-1 (Parameter Estimation and Regression) 8 hours Overview of machine learning: supervised, semi-supervised, unsupervised learning, reinforcement learning. Basics of parameter estimation: Maximum Likelihood Estimation (MLE), Maximum a Posteriori Estimation (MAP). Gradient Descent Algorithm, Batch Gradient Descent, Stochastic Gradient Descent. Regression algorithms: least squares linear regression, normal equations and closed form solution, Polynomial regression.",
+        "Module-2 (Regularization techniques and Classification algorithms) 9 hours Overfitting, Regularization techniques - LASSO and RIDGE. Classification algorithms: linear and non-linear algorithms, Perceptrons, Logistic regression, Naive Bayes, Decision trees. Neural networks : Concept of Artificial neuron, Feed-Forward Neural Network, Back propagation algorithm.",
+        "Module-3 (Unsupervised learning) 8 hours Unsupervised learning: clustering, k-means, Hierarchical clustering, Principal component analysis, Density-based spatial clustering of applications with noise (DBSCAN). Gaussian mixture models: Expectation Maximization (EM) algorithm for Gaussian mixture model.",
+        "Module-4 (Support Vector Machine and Graphical Models) 7 hours Support vector machines and kernels: Max margin classification, Nonlinear SVM and the kernel trick, nonlinear decision boundaries, Kernel functions. Basics of graphical models - Bayesian networks, Hidden Markov model - Inference and estimation.",
+        "Module-5 (Evaluation Metrics and Sampling Methods) 8 hours Classification Performance Evaluation Metrics: Accuracy, Precision, Precision, Recall, Specificity, False Positive Rate (FPR), F1 Score, Receiver Operator Characteristic (ROC) Curve, AUC. Regression Performance Evaluation Metrics: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), R Squared/Coefficient of Determination. Clustering Performance Evaluation Metrics: Purity, Jaccard index, Normalized Mutual Information, Clustering Accuracy, Silhouette Coefficient, Dunn’s Index. Boosting: AdaBoost, gradient boosting machines. Resampling methods: cross-validation, bootstrap. Ensemble methods: bagging, boosting, random forests Practical aspects in machine learning: data preprocessing, overfitting, accuracy estimation, parameter and model selection Bias-Variance tradeoff"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "Stanford CS229 — Main Notes",
+            "url": "https://cs229.stanford.edu/main_notes.pdf"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Introduction to Machine Learning, IIT Kharagpur",
+            "url": "https://www.nptel.ac.in/courses/106105152"
+          }
+        ]
+      },
+      "curation_note": "Excellent match for MLE/MAP, regression, logistic regression, perceptron, SVM, kernels, neural networks, clustering, EM/PCA, ensembles."
+    },
+    {
+      "code": "221TCS001",
+      "name": "ADVANCED DATABASE MANAGEMENT",
+      "modules": [
+        "Module 1: Query Processing and Optimization Review of indexing and Hashing - Overview- Measures of query cost- Algorithms for Selection and Join with cost analysis- Evaluation of expressions- Optimization of RA expressions.",
+        "Module 2: Database Security Threats to databases, control measures, database security and DBA, Discretionary access control, Mandatory access control (role-based only), SQL injection.",
+        "Module 3: Database System Architectures Centralized and Client-Server Architectures – Centralized server systems - Server System Architectures - Parallel Systems- - Parallel storage - Data partitioning, replication and indexing in Parallel Databases- Parallel query processing.",
+        "Module 4: Distributed System Architecture Distributed System architecture- Distributed storage - Distributed file systems – Distributed RDB design- Transparency– Distributed Transactions - Commit Protocols – Concurrency Control - Distributed Query Processing Advanced indexing Techniques: Bloom filter - Bitmap indices - Indexing spatial data - Hash indices.",
+        "Module 5: Semi-structured Data Semi-structured Data and XML Databases: XML Data Model – XSD – XPath and XQuery – Example Queries. Native XML databases, Object Relational Systems"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "MIT OCW — Database Systems: Lecture Notes",
+            "url": "https://ocw.mit.edu/courses/6-830-database-systems-fall-2010/pages/lecture-notes/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "MIT OCW — Database Systems",
+            "url": "https://ocw.mit.edu/courses/6-830-database-systems-fall-2010/"
+          }
+        ]
+      },
+      "curation_note": "Strong match for query processing, indexing, joins, optimization, transactions, distributed transactions, parallel databases and NoSQL."
+    },
+    {
+      "code": "221TCS002",
+      "name": "FOUNDATIONS OF COMPUTER SCIENCE",
+      "modules": [
+        "Module 1: Theorem Proving Techniques Theorem proving techniques: Direct Proof, Indirect proof - Proof by Contrapositive, Proof by contradiction and Proof by exhausting cases, Principle of mathematical induction, Complete induction and Well-ordering principle. The Pigeonhole principle.",
+        "Module 2 : Fundamentals of Counting The Basics of counting, Addition and multiplication principles, Permutations and Combinations. Countable and uncountable sets, Principle of inclusion and exclusion – applications, derangements.",
+        "Module 3 : Generating Functions Recurrence Relations, Modeling problems with recurrence relations. Generating functions, Solving counting problems using Generating functions, Solving recurrence relations using Generating functions.",
+        "Module 4: Probability Theory Probability theory – Properties of Probability, Conditional Probability, Independent Events, Bayes Theorem, Mathematical Expectation and Variance of Random variables. Discrete Distributions and its mean and variance- Binomial Distribution, Bernoulli Distribution , Geometric Distribution, Poisson Distribution. Continuous Distributions and its mean and variance- Uniform and Exponential Distributions, Normal Distribution.",
+        "Module 5 : Classic Problems in Probability and Algebraic Structures Classic Problems in Probability- Birthday Paradox, The Hat Problem, Coupon Collector Problem. Groups and subgroups, generators for a group, Homomorphism theorems, cosets and normal subgroups, Lagrange’s theorem."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "MIT OCW — Mathematics for Computer Science",
+            "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "MIT OCW — Mathematics for Computer Science (lecture materials/videos)",
+            "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/"
+          }
+        ]
+      },
+      "curation_note": "Use MIT for proof/counting/discrete-CS foundations and NPTEL/Rosen-style material for the probability and algebra portions."
+    },
+    {
+      "code": "221ECS100",
+      "name": "OBJECT ORIENTED SOFTWARE ENGINEERING",
+      "modules": [
+        "Module 1: Classical Paradigm System Design Concepts – Project Organization Concepts : Project Organizations , Roles , Tasks and Work Products ,Schedule – Project Communication concepts : Planned Communication , Unplanned Communication ,Communication Mechanism – Project Management Concepts : Tasks and Activities ,Work Products , Work Packages and Roles , Work Breakdown Structure .",
+        "Module 2: Process Models Life cycle models: Sequential Activity Centered Models, Iterative Activity Centered models, Entity Centered models – Unified Process – Iterative and Incremental – Workflow – Agile Processes",
+        "Module 3: Analysis Requirements Elicitation Concepts – An Overview of Unified Modeling Language –Analysis Concepts : Analysis Object Model and Analysis Dynamic Models – Non-functional requirements – Analysis Patterns – Executable specification",
+        "Module 4: Design System Design, Architecture – Design Principles - Design Patterns – Dynamic Object Modeling Static Object Modeling – Model based approach vs Document based approach – Interface Specification – Object Constraint Language",
+        "Module 5: Implementation, Deployment And Maintenance Mapping Design (Models) to Code – Testing - Usability – Deployment – Configuration Management – Maintenance"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "MIT OCW — Software Engineering Concepts: Lecture Notes",
+            "url": "https://ocw.mit.edu/courses/16-355j-software-engineering-concepts-fall-2005/pages/lecture-notes/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Object Oriented Analysis and Design",
+            "url": "https://onlinecourses-archive.nptel.ac.in/noc17_cs25/preview"
+          }
+        ]
+      },
+      "curation_note": "Covers lifecycle/process, requirements, design, testing, UML/object-oriented design and project/team concepts."
+    },
+    {
+      "code": "221ECS001",
+      "name": "ADVANCED DATA MINING",
+      "modules": [
+        "Module 1: Data Mining and Knowledge Discovery Desirable Properties of Discovered Knowledge – Knowledge representation, Data Mining Functionalities, Motivation and Importance of Data Mining, Classification of Data Mining Systems, Integration of a Data Mining System with a Database or Data Warehouse System, Classification, Clustering, Regression, Data Pre-processing: Data Cleaning, Data Integration and Transformation, normalization, standardization, Data Reduction, Feature vector representation. importance of feature engineering in machine learning; forward selection and backward selection for feature selection; curse of dimensionality; data imputation techniques; No Free Lunch theorem in the context of machine learning, Data Discretization and Concept Hierarchy Generation",
+        "Module 2: Data Warehouse and OLAP Technology for Data Mining Data warehouses and its Characteristics - Data warehouse Architecture and its Components, Data Warehouse Design Process, Data Warehouse and DBMS, Data marts, Metadata, Data Cube and OLAP, Extraction - Transformation – Loading - Schemas for Multidimensional Database: Stars, Snowflakes and Fact constellations, OLAP Cube - OLAP Operations - OLAP Server Architecture - Data Warehouse Implementation - From Data Warehousing to Data Mining, Trends in data warehousing",
+        "Module 3: Association Pattern Mining Mining Frequent Patterns, Associations and Correlations –Mining Methods – Mining Various Kinds of Association Rules – Correlation Analysis – Constraint Based Association Mining, Single Dimensional Boolean Association Rules From Transaction Databases, Multilevel Association Rules from transaction databases – Multi dimension Association Rules from Relational Database and Data Warehouses, Frequent Item Set Generation, Apriori Algorithm, Improved Apriori Algorithm for Association Rules Mining, Methods to improve Apriori, FP Growth Algorithm - Generating association rules from frequent itemset, Compact Representation of Frequent Item set - Maximal Frequent Item Set - Closed Frequent Item Sets. Pattern Evaluation Methods- Relationship Between FP-Growth and Enumeration-Tree Methods From Association Analysis to Correlation Analysis, Lift",
+        "Module 4: Classification and Prediction Classification Techniques, Decision Tree - Decision tree Construction, Measures for Selecting the Best Split - Algorithm for Decision tree Induction - CART, Bayesian Belief Networks, Instance-Based Learning, K-Nearest neighbor classification, Accuracy and Error measures, Multiclass Classification, Semi-Supervised Classification, Multi class Learning, Rare class learning, Active Learning, Transfer Learning, Fuzzy Set Approaches for Classification, Rough Set Approaches, Techniques to improve classification accuracy-Ensemble methods, Bias- Variance Trade-off, Improving classification accuracy of class imbalanced data",
+        "Module 5: Cluster Analysis Desired features of cluster Analysis, Types of data in cluster analysis, Categorization of Major Clustering Methods, Density-Based Methods, Clustering High Dimensional Data, Constraint Based Cluster Analysis, GA based clustering, Dealing with Large Databases, Probabilistic Model Based Clustering, Clustering with Constraints, Semi supervised clustering, Cluster Ensembles, Quality and validity of cluster analysis methods, Outlier Analysis-Statistical Approaches, Proximity Based Approaches Advanced Mining: Multimedia Data Mining - Text Mining, Graph Mining and Social Network Analytics - Geospatial Data Mining, Temporal Mining, Data Mining Applications - Social Impacts of Data Mining."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "Mining of Massive Datasets — free book and slides",
+            "url": "https://www.mmds.org/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Data Mining, IIT Kharagpur",
+            "url": "https://nptel.ac.in/courses/106105174"
+          }
+        ]
+      },
+      "curation_note": "Good coverage for preprocessing, association mining, classification, clustering, high-dimensional data and large-scale mining."
+    },
+    {
+      "code": "221ECS002",
+      "name": "CLOUD COMPUTING",
+      "modules": [
+        "Module 1: Virtualization Basics of Virtual Machines - Process Virtual Machines – System Virtual Machines – Emulation – Interpretation – Binary Translation - Taxonomy of Virtual Machines. Virtualization –Management –– Hardware Maximization – Architectures – Virtualization Management – Storage Virtualization – Network Virtualization",
+        "Module 2: Virtualization Infrastructure Comprehensive Analysis – Resource Pool – Testing Environment –Server Virtualization – Virtual Workloads – Provision -Virtual Machines – Desktop Virtualization – Application Virtualization - Implementation levels of virtualization – virtualization structure – virtualization of CPU-Memory and I/O devices – virtual clusters and Resource Management – Virtualization for data centre automation.",
+        "Module 3: Cloud Platform Architecture Understanding cloud computing-Cloud Computing – History of Cloud Computing- Advantages and Disadvantages of Cloud Computing- Cloud deployment models-public- private- hybrid- Categories of cloud computing-Everything as a service-Infrastructure- platform-software- A Generic Cloud Architecture Design – Layered cloud Architectural Development – Virtualization Support and Disaster Recovery – Architectural Design Challenges - Public Cloud Platforms –GAE-AWS – Inter-cloud Resource Management",
+        "Module 4: Programming Mode Introduction to Hadoop Framework – Map Reduce-Input splitting-map and reduce functions- specifying input and output parameters-configuring and running a job –Developing Map Reduce Applications - Design of Hadoop file system –Setting up Hadoop Cluster - Cloud Software Environments –Eucalyptus-Open Nebula-Open Stack-Nimbus",
+        "Module 5: Cloud Security Cloud Infrastructure security- network, host and application level – aspects of data security- provider data and its security-Identity and access management architecture-IAM practices in the cloud-SaaS-PaaS-IaaS availability in the cloud - Key privacy issues in the cloud –Cloud Security and Trust Management"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Cloud Computing, IIT Kharagpur",
+            "url": "https://www.nptel.ac.in/courses/106105167"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Cloud Computing, IIT Kharagpur",
+            "url": "https://www.nptel.ac.in/courses/106105167"
+          }
+        ]
+      },
+      "curation_note": "Includes virtualization, cloud architecture, deployment models, Hadoop/MapReduce, OpenStack, Azure/GCP and Docker."
+    },
+    {
+      "code": "221ECS003",
+      "name": "WEB SERVICES",
+      "modules": [
+        "Module 1: Introduction to Web Services Web Services Standards Organizations, Service oriented architecture, Advantages of web services over distributed object architecture, SOAP-based web services, RESTful web services. Review of HTTP requests and responses- HTTP as an API, A RESTful example, Use of Servlets for RESTful Web Services.",
+        "Module 2: RESTful Web Services: The Service Side A RESTful service as an HttpServlet, Implementation details. A RESTful Web Service as a JAX-RS Resource- JAX-RS Web Service Using Jersey, Publishing JAX-RS Resources with a Java Application, Publishing JAX-RS Resources with Tomcat, JAX-RS Generation of XML and JSON Responses, Porting the Predictions Web Service to JAX-RS. A RESTful Web Service as Restlet Resources. GraphQL- Introduction to GraphQL, GraphQL Architecture, Basic Queries.",
+        "Module 3: RESTful Web Services: The Client Side- A Perl Client Against a Java RESTful Web Service RESTful Clients and WADL Documents- The JAX-RS Client API, JSON for JavaScript Clients- JSONP and Web Services.",
+        "Module 4: SOAP-Based Web Services- Introduction and Evolution of SOAP, Architecture of a typical SOAP-based service, Publishing a SOAP-Based Service with a Standalone Web Server RandService- JavaClient Against the RandService, C# Client Against the RandService, A Perl Client Against the RandService. WSDL – WSDL document structure.",
+        "Module 5: Introduction to React.js, Node.js and Angular.js Introduction to React and Node-Basic Concepts and Applications, Rendering Elements and Components, Comparison and Purpose of Node.js and React.js, Angular JS Basics-Modules, Creating Components, Directives, Filters, Angular Forms-Services, Single page application and Multipage application, Use case of a real-time single page chat application."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "MIT OCW — Database, Internet and Systems Integration: Lecture Notes",
+            "url": "https://ocw.mit.edu/courses/1-264j-database-internet-and-systems-integration-technologies-fall-2013/pages/lecture-notes-exercises/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "MIT OCW — Web Services / WSDL / SOA materials",
+            "url": "https://ocw.mit.edu/courses/1-264j-database-internet-and-systems-integration-technologies-fall-2013/pages/calendar/"
+          }
+        ]
+      },
+      "curation_note": "Especially useful for XML, web services, WSDL, registries and service-oriented architecture. Pair with framework documentation for React/Node/Angular."
+    },
+    {
+      "code": "221ECS004",
+      "name": "COMPUTATIONAL INTELLIGENCE",
+      "modules": [
+        "Module 1: Fuzzy Logic Crisp sets vs fuzzy sets- Operations and properties of Fuzzy sets. Membership functions - Linguistic variables. Operations on fuzzy sets- Fuzzy laws- Operations on fuzzy relations, Fuzzy composition- Max- min, Max – product. Alpha-cut representation.",
+        "Module 2: Fuzzy Systems Fuzzy Reasoning – GMP and GMT. Fuzzy Inference System: Defuzzification methods - Fuzzy Controllers -Mamdani FIS, Larsen Model",
+        "Module 3: Genetic Algorithms Introduction to Genetic Algorithms – Theoretical foundation - GA encoding, decoding - GA operations – Elitism – GA parameters – Convergence. Multi-objective Genetic Algorithm – Pareto Ranking.",
+        "Module 4: Ant Colony Systems Swarm intelligent systems - Background Ant colony systems – Biological systems- Development of the ant colony system- - Working - Pheromone updating- Types of ant systems- ACO algorithms for TSP",
+        "Module 5: Particle Swarm Optimization Basic Model - Global Best PSO- Local Best PSO- Comparison of ‘gbest’ to ‘lbest’- PSO Algorithm Parameters- Problem Formulation of PSO algorithm- Working. Rate of convergence improvements -Velocity clamping- Inertia weight- Constriction Coefficient- Boundary Conditions- Guaranteed Convergence PSO- Initialization, Stopping Criteria, Iteration Terms and Function Evaluation."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Introduction to Soft Computing / Computational Intelligence material",
+            "url": "https://archive.nptel.ac.in/content/syllabus_pdf/106105173.pdf"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Introduction to Soft Computing",
+            "url": "https://www.nptel.ac.in/courses/106105173"
+          }
+        ]
+      },
+      "curation_note": "Strong starting point for fuzzy logic, genetic algorithms, neural systems and computational-intelligence foundations; use dedicated optimization material for ACO/PSO."
+    },
+    {
+      "code": "221ECS005",
+      "name": "AUTOMATED VERIFICATION",
+      "modules": [
+        "Module 1: Introduction and Basic Concepts Two approaches to Formal Reasoning, Basic Definitions, Normal forms and their properties, The theoretical point of view, Expressiveness vs. Decidability, Boolean structure in Decision Problems.",
+        "Module 2 : Decision Procedures for Propositional Logic Propositional Logic, SAT Solvers, Binary Decision Diagrams",
+        "Module 3 : Equality Logic and Uninterpreted Functions Introduction, Uninterpreted Functions, From Uninterpreted Functions to Equality Logic, Functional Consistency is not enough, Two examples of the use of Uninterpreted Functions.",
+        "Module 4 : Decision Procedures for Equality Logic and Uninterpreted Functions Congruence Closure, Basic Concepts, Simplification of the formula, A Graph-Based Reduction to Propositional Logic, Equalities and Small Domain Instantiations, Ackermann’s vs. Bryant’s Reduction.",
+        "Module 5 : Linear Arithmetic Introduction, The Simplex Algorithm, The Branch and Bound Method, Fourier-Motzkin Variable Elimination, The Omega Test, Preprocessing, Difference Logic."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "MIT OCW — Fundamentals of Program Analysis: Lecture Notes",
+            "url": "https://ocw.mit.edu/courses/6-820-fundamentals-of-program-analysis-fall-2015/pages/lecture-notes/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Formal Methods for System Verification",
+            "url": "https://nptel.ac.in/courses/106103002"
+          }
+        ]
+      },
+      "curation_note": "Excellent match for decision procedures, abstract interpretation, verification and model-checking foundations."
+    },
+    {
+      "code": "221ECS006",
+      "name": "ADVANCED COMPUTER NETWORKS",
+      "modules": [
+        "Module 1: Advanced Internetworking The Global Internet, Routing Areas, Interdomain Routing -BGP, IP Version 6, Multicast, Multicast Addresses, Multicast Routing -DVMRP-PIM-MSDP, Routing to a mobile node, Mobile IP, TCP and Mobility, Mobile TCP",
+        "Module 2: Internetwork Quality of Service QoS Architectural Framework - Integrated Services Architecture – RSVP - Differentiated Services, Multiprotocol Label Switching- Destination-Based Forwarding - Explicit Routing Virtual Private Networks and Tunnels, Performance issues in networks, Delay Tolerant Networking",
+        "Module 3: Networking Technologies Wired: DSL, Cable Networks, SONET, ATM, VLAN, Wireless: Satellite Networks, WiMAX.Cellular Networks: Introduction-Wireless links and Network characteristics -CDMA, Cellular Internet access -An overview of cellular network architecture, 3G cellular data networks, 4G LTE Cellular networks - LTE Protocol Stacks -LTE Radio Access Network -Additional LTE functions, 5G Cellular networks, Managing mobility in cellular networks, Wireless and Mobility-Impact on higher level protocols, Personal Area Networks: Bluetooth, Zigbee",
+        "Module 4: Networking Applications Multimedia in the Internet: Streaming stored audio/video, Streaming live audio/video, Real time interactive audio/video, Real time Interactive Protocols: RTP- RTCP-SIP-H.323, SCTP Compression: Audio Compression, Image compression- JPEG, Video Compression- MPEG",
+        "Module 5: Current Topics in Networking Overlay Networks: Routing overlays -Resilient overlay networks, Peer-Peer Networks – Bit Torrent- Distributed Hash Tables, Content Distribution networks, Software Defined Networks: Architecture – Control and Data Planes – Open Flow – SDN Controllers, Network Function Virtualization, Data Center Networking"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Advanced Computer Networks syllabus/material",
+            "url": "https://archive.nptel.ac.in/content/syllabus_pdf/106106243.pdf"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Advanced Computer Networks, IIT Indore/IIT Gandhinagar",
+            "url": "https://nptel.ac.in/courses/106106243"
+          }
+        ]
+      },
+      "curation_note": "Current advanced networking course with high-performance networking, QoS, SDN, NFV, programmable networks, data-center networking and information-centric networking."
+    },
+    {
+      "code": "221ECS007",
+      "name": "PATTERN RECOGNITION",
+      "modules": [
+        "Module 1: Introduction to Pattern Recognition Basics of pattern recognition systems, various applications, Machine Perception, classification of pattern recognition systems. Design of Pattern recognition system, Pattern recognition Life Cycle. Statistical Pattern Recognition: Review of probability theory, Gaussian distribution. Normal density and discriminant functions.",
+        "Module 2: Feature Selection Feature selection – Outlier removal – Data normalization – Missing data, The Peaking phenomenon, Feature selection using statistical hypothesis testing- Hypothesis testing basics – Application of t-Test in feature selection. Class separability measures-Divergence-Chernoff bound and Bhattacharya distance-Scatter matrices, Feature subset selection –Scalar feature selection, Feature vector selection.",
+        "Module 3: Clustering Algorithms Unsupervised learning and clustering - Criterion functions for clustering. Cluster validation. Fuzzy clustering algorithms- Point representatives- quadratic surfaces and representatives – hyper plane representatives. Binary morphology clustering algorithms (BMCAs) – Discretization – Morphological operations - Determination of clusters in a discrete binary set- Assignment of feature vectors to clusters – The algorithmic scheme, Boundary detection algorithms.",
+        "Module 4: Dimensionality reduction Dimensionality reduction: Principal component analysis - its relationship to Eigen analysis. Fisher discriminant analysis - Generalised Eigen analysis. Eigen vectors/Singular vectors as dictionaries. Factor Analysis, Total variability space - a dictionary learning method.Non negative matrix factorisation - a dictionary learning method. Linear discriminant functions: Gradient descent procedures, Perceptron.",
+        "Module 5: Artificial neural networks and Pattern Classification Artificial neural networks: Review of Artificial neural network concepts, convolutional neural networks, recurrent neural networks. Non-metric methods for pattern classification: non-numeric data or nominal data. Decision trees: Classification and Regression Trees (CART)."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Pattern Recognition and Neural Networks syllabus",
+            "url": "https://archive.nptel.ac.in/content/syllabus_pdf/117108048.pdf"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Pattern Recognition",
+            "url": "https://www.nptel.ac.in/courses/106106046"
+          }
+        ]
+      },
+      "curation_note": "Covers Bayes decision theory, classifiers, feature extraction/selection, PCA, GMM, neural networks, SVM and classifier assessment."
+    },
+    {
+      "code": "221ECS008",
+      "name": "ADVANCED COMPUTER ARCHITECTURE",
+      "modules": [
+        "Module 1: Design and Analysis Principles of computer design, Fallacies and Pitfalls, Instruction Set Principles- Classifying instruction set architecture, Memory addressing, Type and size of operands, Operations in the instruction set, Instruction for control flow, Encoding an instruction set, Role of compiler.",
+        "Module 2: Memory Hierarchy Introduction, Cache performance, Basic cache optimizations, Virtual memory–Techniques for fast address translation, Protection via virtual memory, Fallacies and Pitfalls, Case study of Pentium/Linux memory system-Pentium address translation.",
+        "Module 3: Pipelining Introduction, Pipeline hazards, Static branch prediction and dynamic branch prediction, Implementation of MITS, Basic pipeline of MITS, Implementing the control in MITS pipeline, Dealing with branches in pipeline, Dealing with exceptions, Handling of multi-cycle operations, Maintaining precise exceptions, Case study of MITS R4000 pipeline.",
+        "Module 4: Thread Level Parallelism Introduction, Centralized Shared-Memory Architectures, Performance of Symmetric Shared- Memory Multiprocessors, Distributed Shared-Memory and Directory-Based Coherence, Synchronization: The Basics, Models of Memory Consistency: An Introduction, Crosscutting Issues, Case study of Sun T1 Multiprocessor.",
+        "Module 5: Data Level Parallelism Vector architecture, SIMD instruction set, Extension for multimedia, Graphic Processing Units, Case study Envida GPU instruction set architecture, GPU memory structure, Innovations in GPU architecture, Comparisons between vector architecture and GPUs, Comparisons between multimedia SIMD computers and GPUs, Loop level parallelism, Finding dependencies, Eliminating dependencies."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Advanced Computer Architecture syllabus",
+            "url": "https://archive.nptel.ac.in/content/syllabus_pdf/106102229.pdf"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Advanced Computer Architecture, IIT Delhi",
+            "url": "https://www.nptel.ac.in/courses/106102229"
+          }
+        ]
+      },
+      "curation_note": "Directly useful for out-of-order execution, branch prediction, ILP, caches, NoC, memory models, coherence, low power and hardware security."
+    },
+    {
+      "code": "221ECS009",
+      "name": "NATURAL LANGUAGE PROCESSING AND TEXT MINING",
+      "modules": [
+        "Module 1: Introduction Natural Language Processing (NLP) - Syntax, semantics, pragmatics, and ambiguity in NLP, Regular Expressions, Text Normalisation, Edit Distance. N-gram Language Models-N-Grams, Evaluating Language Models, Generalisation and Zeros, Smoothing, Kneser-Ney Smoothing, The Web and Stupid Backoff, Perplexity’s Relation to Entropy.",
+        "Module 2: Neural Language Models, Vector Semantics and Embeddings Neural Networks and Neural Language Models-Units, Feed-Forward Neural Networks, Training Neural Nets, Neural Language Models. Vector Semantics and Embeddings-Lexical Semantics, Vector Semantics, Words and Vectors, Cosine for measuring similarity, TF-IDF: Weighing terms in the vector, Applications of the tf-idf vector model, Word2vec, Visualizing Embeddings, Semantic properties of embeddings, Bias and Embeddings, Evaluating Vector Models.",
+        "Module 3: Sentiment Classification and Part-of-Speech Tagging Sentiment Classification –Sentiment classification. Machine Learning for Sentiment Classification - Training the Classifier (Naive Bayes, Logistic Regression, Support Vector Machine, Decision Tree, Random Forest), Optimising for Sentiment Analysis - Other text classification tasks – Evaluation of classification models: Precision, Recall, F-measure, Test sets and Cross-validation, Statistical Significance Testing. Part-of-Speech Tagging-English Word Classes, The Penn Treebank Part-of-Speech Tagset, Part-of-Speech Tagging, HMM Part-of-Speech Tagging, Maximum Entropy Markov Models, Bi-directionality, Part-of Speech Tagging for Morphological Rich Languages. Information Extraction-Named Entity Recognition, Relation Extraction, Extracting Times, Extracting Events and their Times, Template Filling.",
+        "Module 4: Sequence Processing with Recurrent Networks Sequence Processing with Recurrent Networks-Simple Recurrent Neural Networks, Applications of Recurrent Neural Networks, Deep Networks: Stacked and Bidirectional RNNs, Managing Context in RNNs: LSTMs and GRUs, Words, Subwords and Characters Neural Language Models and Generation Revisited, Encoder-Decoder Networks, Attention, Applications of Encoder-Decoder Networks. Case study: Machine translation, Question Answering",
+        "Module 5: Text Mining Document representation - representing unstructured text documents with appropriate format and structure, automated text mining algorithms. Text Mining: Text categorization, Text clustering, Topic modeling, Applications - classification, image annotation, collaborative filtering, and hierarchical topical structure modeling. Document summarization - Extraction- based summarization methods Sentiment analysis - concept, sentiment polarity prediction, review mining, aspect identification. Text visualization - introduction to mathematical and programming tools."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Natural Language Processing course materials",
+            "url": "https://www.nptel.ac.in/courses/106105158"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Natural Language Processing, IIT Kharagpur",
+            "url": "https://www.nptel.ac.in/courses/106105158"
+          }
+        ]
+      },
+      "curation_note": "Current course covers text preprocessing, language modeling, POS tagging, parsing, semantics, topic models, information extraction, summarization and sentiment analysis."
+    },
+    {
+      "code": "221ECS010",
+      "name": "ADVANCED COMPILER DESIGN",
+      "modules": [
+        "Module 1: Overview of Compiler Design Introduction - The phases of Compiler - Lexical Analysis - Role of Lexical Analyzer - Specification and Recognition of Tokens - Context Free Grammar – Symbol - Table Structure, Symbol Attributes and Symbol - Table Entries, Local Symbol - Table Management, Global Symbol - Table Structure, Storage Binding and Symbolic Registers, Approaches to Generating Loads and Stores. Intermediate representation – Issues – High level, medium level, low level intermediate languages –MIR, HIR, LIR – ICANfor Intermediate code.",
+        "Module 2: Intermediate Representations The value - number method for constructing DAGs - Addresses and instructions – Quadruples - Triples - Storage organization – Static versus dynamic storage allocation - stack allocation of space -Activation trees - Activation records - Garbage collection - Design goals for Garbage collectors -Reference counting garbage collectors - Introduction to trace - based collection - A basic mark - and-sweep collector. Translation of expressions Translation of expressions – Operations within expressions – Incremental translation – Addressing array elements – Translation of array references Control flow – Boolean expressions – Short - circuit code – flow – of - control statements – Control flow translation of Boolean expressions – Avoiding redundant Gotos – Boolean values and jumping code – Backpatching – One - passcode generation using back patching – Back patching for Boolean expressions – Flow- of-control statements – Break, continue and Goto statements Translation of switch statements – syntax directed translation of switch statements - intermediate code for procedures",
+        "Module 3: Code Optimization Principal sources of optimization - causes of redundancy preserving transformations - Global common subexpressions - Copy Propagation - Dead code elimination – Code motion –Upward code motion – Downward code motion – Induction variables and reduction in strength -Introduction to data flow analysis - Loops in Flow graphs – Dominators - Introduction to global data flow analysis - Points and Paths - Reaching definitions - Live variable analysis - Data flow analysis of structured program.",
+        "Module 4: Register Allocation and Code Scheduling Register allocation and assignment – graph coloring – control flow and low-level optimizations - Inter - procedural analysis and optimization – call graph –– register allocation – global References: – Optimization for memory hierarchy. Code Scheduling – Instruction scheduling – peculative scheduling – Software pipelining – trace scheduling –percolation scheduling.",
+        "Module 5: Parallelism and Case study Instruction - level parallelism - Instruction pipelines and branch delays – pipelined execution –data dependence – dependencies among memory accesses. Case Studies – Sun Compilers for SPARC–IBMXL Compilers – Alpha compilers – PA – RISC assembly language – COOL – (Classroom Object oriented language) – Compiler testing tools – SPIM"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Compiler Design syllabus",
+            "url": "https://archive.nptel.ac.in/content/syllabus_pdf/106105190.pdf"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Compiler Design, IIT Kharagpur",
+            "url": "https://www.nptel.ac.in/courses/106105190"
+          }
+        ]
+      },
+      "curation_note": "Useful for lexical analysis, parsing, syntax-directed translation, runtime environments, intermediate code and optimization foundations."
+    },
+    {
+      "code": "221ECS011",
+      "name": "BIOINFORMATICS",
+      "modules": [
+        "Module 1: Molecular Biology Biomolecules-DNA, RNA and proteins-Components and structure. Genome organization. Letter codes for amino acids. Central dogma of molecular Biology. Genetic code. Interatomic forces in proteins, different levels of protein structure, protein domains, motifs.",
+        "Module 2: Bioinformatics Definition and brief history. Bioinformatics vs Computational Biology. Scope and research areas of Bioinformatics. Data archives: Biological Databases-classification and importance; Nucleic acid databases: GenBank, DDBJ, EMB. Protein Sequence Databases: SwissProt, PIR. Derived databases: InterPro, Prosite, Pfam. Structure Databases: RCSB PDB, CATH, SCOP. Bibliographic Databases: PubMed, MEDLINE. Specialized databases. Gateways to archives: Entrez, SRS, ExPASy.",
+        "Module 3: Sequence Alignment Concept of sequence alignment, Gaps in alignment, Scoring matrices: PAM and BLOSUM, Alignment of pairs of sequences: Dot Plot, Dynamic Programming, Alignment algorithms: The Needleman and Wunsch algorithm, Smith-Waterman algorithm. Search for homologous sequences using BLAST and FASTA programs. Statistical significance of database searches. Multiple sequence Alignment: Concept and Algorithms in MSA. Tools: Clustal, Mega.",
+        "Module 4: Molecular Phylogenetics Concept and its relation to Multiple Sequence Alignment. Representation of phylogeny. Concept of Outgroup. Gene and Species phylogeny. Phylogenetic tree construction methods: Distance based and Character based. Phylogenetic software’s: PHYLIP, MrBayes.",
+        "Module 5: Protein Structure Prediction and Advanced Bioinformatics Protein Stability and folding, Ramachandran plot, Homology modelling, Energy minimization, CASP; Protein structure prediction software’s: ESyPred3D, Rosetta; PSI- BLAST; Introduction to machine learning techniques: Hidden Markov models, Genetic algorithms and artificial neural networks. Applications of machine learning techniques in multiple sequence alignment, structure prediction and phylogenetic analysis"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — BioInformatics: Algorithms and Applications",
+            "url": "https://nptel.ac.in/courses/102106065"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — BioInformatics: Algorithms and Applications, IIT Madras",
+            "url": "https://www.nptel.ac.in/courses/102106065"
+          }
+        ]
+      },
+      "curation_note": "Covers biological databases, sequence analysis, structural bioinformatics, protein prediction and computer-aided drug design."
+    },
+    {
+      "code": "222TCS100",
+      "name": "ADVANCED DATA STRUCTURES AND ALGORITHMS",
+      "modules": [
+        "Module – 1 (Amortized analysis and String matching) Overview of asymptotic notations and complexity analysis, Amortized analysis – aggregate analysis, accounting method, potential method. String matching – introduction, Rabin-Karp algorithm, Knuth-Morris-Pratt algorithm.",
+        "Module – 2 (Advanced data structures) Overview of binary heap operations, Binomial tree and heap, Binomial heap operations, Fibonacci heap structure, Fibonacci heap operations, Disjoint set – overview, linked list representation, disjoint set forests.",
+        "Module – 3 (Network flow) Network flow properties, examples, residual network, augmenting path, cut of network, maxflow-mincut theorem, Ford-Fulkerson algorithm, Edmonds-Karp algorithm, maximum bipartite matching.",
+        "Module – 4 (Probabilistic algorithms) Introduction, types of probabilistic algorithms, Numerical algorithms – Numerical integration, Probabilistic counting, Monte-Carlo algorithms – Verifying matrix multiplication. Number theory fundamentals – modular arithmetic, modular exponentiation, Euler's Theorem and Fermat's Theorem, Primality testing – Miller-Rabin test. Las Vegas algorithms – Probabilistic selection and quick sort.",
+        "Module – 5 (Approximation algorithms) Introduction, Vertex-cover problem, Traveling-salesman problem, Set-covering problem, Subset-sum problem. :COMPUTER SCIENCE AND ENGINEERING-CS1"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "MIT OCW — Design and Analysis of Algorithms: Lecture Notes",
+            "url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2012/pages/lecture-notes/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Second Level Algorithms",
+            "url": "https://archive.nptel.ac.in/content/syllabus_pdf/106105704.pdf"
+          }
+        ]
+      },
+      "curation_note": "Very strong match for amortized analysis, Fibonacci heaps, network flow, randomized algorithms, string matching and approximation algorithms."
+    },
+    {
+      "code": "222TCS001",
+      "name": "ADVANCED OPERATING SYSTEMS",
+      "modules": [
+        "Module 1: Process Management and Scheduling Introduction to the Linux kernel, Process Management – Process, Process descriptor and the task structure, Process creation, The Linux implementation of threads, Process termination. Process Scheduling – Multitasking, Linux’s process scheduler, Policy, Linux scheduling algorithm, Preemption and context switching, Real-time scheduling policies.",
+        "Module 2: System calls and Interrupts System Calls - Communicating with the Kernel, Syscalls, System call handler, System call implementation, System call context . Interrupts and Interrupt Handlers – Interrupts, Interrupt handlers, Top halves versus bottom halves, Registering an interrupt handler, Writing an interrupt handler, Interrupt context, Interrupt control. Bottom Halves – Task queues, Softirqs, Tasklets, Work queues.",
+        "Module 3: Kernel Synchronization Kernel Synchronization – Critical regions and race conditions, Locking, Deadlocks, Contention and scalability. Kernel Synchronization Methods – Atomic operations, Spin locks, Semaphores, Mutexes, Completion variables, BKL: The Big Kernel Lock, Sequential locks, Preemption disabling. :COMPUTER SCIENCE AND ENGINEERING-CS1",
+        "Module 4: Memory Management and Virtual File System Memory Management – Pages, Zones, kmalloc(), kfree(), vmalloc(), Slab layer – design, Per- CPU allocations. The Virtual File system – VFS objects, data structures, relationship and functionalities.",
+        "Module 5: Block I/O Layer and Portability The Block I/O Layer – Buffers and buffer heads, Request queues, I/O schedulers – Types, Scheduler selection. Portability – Word size and data types, Data alignment, Byte order, Time, Processor ordering"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "MIT OCW — Operating System Engineering: Lecture Notes",
+            "url": "https://ocw.mit.edu/courses/6-828-operating-system-engineering-fall-2012/pages/lecture-notes-and-readings/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "MIT OCW — Operating System Engineering",
+            "url": "https://ocw.mit.edu/courses/6-828-operating-system-engineering-fall-2012/"
+          }
+        ]
+      },
+      "curation_note": "Graduate-level OS material with xv6, processes, system calls, interrupts, synchronization, memory and kernel implementation."
+    },
+    {
+      "code": "222ECS100",
+      "name": "BIG DATA ANALYTICS",
+      "modules": [
+        "Module 1: Introduction to Data Analytics Mathematics for Data Analytics - Descriptive statistics - Measures of central tendency and dispersion, Association of two variables, Probability calculus - probability distributions, Inductive statistics - Point estimation, Interval estimation, Hypothesis Testing - Basic definitions, t-test Introduction To Big Data: Big data characteristics, Features of Big Data, Evolution of Big data, Analyst Perspective on Data Repositories , State of the Practice in Analytics, BI Versus Data Science.",
+        "Module 2: Introduction to R Review of basic data analytic methods using R : Introduction to R, R graphical user interface- data import and export-attribute and data type. Exploratory data analysis-Visualization, Dirty :COMPUTER SCIENCE AND ENGINEERING-CS1 data, single and multiple variables, data exploration vs presentation. Statistical methods for evaluation-Hypothesis testing, difference of means, Wilcoxon rank sum test, type I and II errors, power and sample size,",
+        "Module 3: Hadoop & HDFS History of Hadoop, Apache Hadoop, Analysing Data with Unix tools, Analysing Data with Hadoop, Hadoop Streaming, Hadoop Echo System, IBM Big Data Strategy, Introduction to Infosphere BigInsights and Big Sheets. The Design of HDFS, HDFS Concepts, Command Line Interface, Hadoop file system interfaces, Data flow, Data Ingest with Flume and Scoop and Hadoop archives, Hadoop I/O: Compression, Serialization, Avro and File-Based Data structures",
+        "Module 4: Map reduce & Hadoop Ecosystem Anatomy of a Map Reduce Job Run, Failures, Job Scheduling, Shuffle and Sort, Task Execution, Map Reduce Types and Formats, Map Reduce Features. Pig : Introduction to PIG, Execution Modes of Pig, Comparison of Pig with Databases, Grunt, Pig Latin, User Defined Functions, Data Processing operators. Hive : Hive Shell, Hive Services, Hive Metastore, Comparison with Traditional Databases, HiveQL.",
+        "Module 5: Advanced Analytical Theory, Methods and Text Analysis Advanced analytical theory and methods: Time Series Analysis- Overview of Time Series Analysis, Box-Jenkins Methodology ARIMA Model, Autocorrelation Function (ACF), Autoregressive Models, Moving Average Models ARMA and ARIMA Models Building and Evaluating an ARIMA Model, Reasons to Choose and Cautions."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "Mining of Massive Datasets — free book and slides",
+            "url": "https://www.mmds.org/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Data Mining, IIT Kharagpur",
+            "url": "https://nptel.ac.in/courses/106105174"
+          }
+        ]
+      },
+      "curation_note": "Use for the big-data theory; combine with the Hadoop/MapReduce portions of NPTEL Cloud Computing for implementation."
+    },
+    {
+      "code": "222ECS001",
+      "name": "WIRELESS SENSOR NETWORKS",
+      "modules": [
+        "Module 1: Introduction to Wireless Sensor Networks Motivation, Challenges and Constraints, Applications. Node Architecture – Hardware elements, Sensors and Actuators, Power supply, Energy Consumption of sensor nodes. Challenges in sensor network programming, Operating systems and execution environments- embedded OS, issues, Programming models.",
+        "Module 2: Sensor Network Architecture Sensor network scenarios, Optimization goals and figures of merit Design principles for WSNs, Service interfaces of WSNs. Gateway concepts, WSN- Internet Communication. Discrete time Markov Chain, Performance analysis of IEEE 802.11 DCF using Markov Chain",
+        "Module 3: MAC Protocols for WSNs Characteristics and design goals, low duty cycle protocols and wakeup concepts. Contention based protocols: PAMAS, STEM, T-MAC, Schedule based protocols: SMACS, TRAMA, Hybrid MAC protocols: Z-MAC Case Studies: S-MAC, 802.15.4, 802.15.6",
+        "Module 4: Routing Protocols for WSNs Introduction, Routing challenges and design issues, Routing Strategies Routing Techniques: Flooding and Gossiping, SPIN, LEACH, PEGASIS, Directed Diffusion, Rumour Routing, Geographic Routing- Forwarding Strategies.",
+        "Module 5: Localization, Coverage and Security in WSNs Localization: approaches-proximity-trilateration and triangulation- scene analysis Coverage and deployment: sensing models, coverage measures, uniform random deployments, coverage determination Security: Security challenges in WSNs, Security attacks in WSNs :COMPUTER SCIENCE AND ENGINEERING-CS1"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Wireless Ad Hoc and Sensor Networks syllabus",
+            "url": "https://archive.nptel.ac.in/content/syllabus_pdf/106105160.pdf"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Wireless Ad Hoc and Sensor Networks, IIT Kharagpur",
+            "url": "https://www.nptel.ac.in/courses/106105160"
+          }
+        ]
+      },
+      "curation_note": "Covers WSN introduction, MAC, routing, congestion, mobile/underwater WSNs, security and sensor-node design."
+    },
+    {
+      "code": "222ECS002",
+      "name": "DEEP LEARNING",
+      "modules": [
+        "Module 1: Introduction to Deep learning Introduction to deep learning, Deep feed forward network, Training deep models - introduction, setup and initialization issues, Vanishing and exploding gradient problems, Optimization techniques - Gradient Descent (GD), Stochastic GD, GD with momentum, GD with Nesterov momentum, AdaGrad, RMSProp, Adam. Regularization Techniques - L1 and L2 regularization, Early stopping, Dataset augmentation, Parameter tying and sharing, Ensemble methods, Dropout.",
+        "Module 2: Convolutional Neural Networks Convolutional Neural Networks –Architecture, Convolution and Pooling operation, Motivation, Variants of convolution functions, Structured outputs, Data types, Efficient convolution algorithms, Training a Convolutional Network, Applications of Convolutional Networks, Case study of Convolutional Architectures – AlexNet",
+        "Module 3: Recurrent neural networks Recurrent neural networks – Computational graphs, RNN design, encoder – decoder sequence to sequence architectures, deep recurrent networks, recursive neural networks, challenges of training Recurrent Networks, gated RNNs LSTM and GRU, Applications of RNNs. :COMPUTER SCIENCE AND ENGINEERING-CS1",
+        "Module 4: Graphical Models and Sampling Graphical models - Bayesian network, Markov networks, Inference on chains and factor graphs. Monte Carlo Methods – Basics of Monte Carlo Sampling, Importance sampling, Markov chain Monte Carlo methods(MCMC), Gibbs sampling.",
+        "Module 5: Advanced Deep learning Topics Autoencoders, Variational AutoEncoder , Deep generative models - Boltzmann machines, Restricted Boltzmann Machines, Deep Belief Networks, Deep Boltzmann Machines, ,Generative Adversarial Networks, Auto-Regressive Networks. Transfer Learning and Domain Adaptation."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Deep Learning syllabus",
+            "url": "https://archive.nptel.ac.in/content/syllabus_pdf/106105215.pdf"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Deep Learning, IIT Ropar",
+            "url": "https://www.nptel.ac.in/courses/106105184"
+          }
+        ]
+      },
+      "curation_note": "Strong coverage of MLP/backprop, CNN, RNN/LSTM, optimization, regularization and modern deep-learning architectures."
+    },
+    {
+      "code": "222ECS003",
+      "name": "COMPUTER VISION",
+      "modules": [
+        "Module 1: Image formation and modelling Components of a vision system, Imaging systems, Signal processing for computer vision, Pattern recognition for computer vision, Performance evaluation of algorithms. Image formation and Image model- Camera model and camera calibration- Radiometry- Light in space- Light in surface - Sources, shadows and shading, Multiple images-The Geometry of multiple views- Stereopsis.",
+        "Module 2: Affine structures Affine structure from motion- Elements of Affine Geometry, Affine structure and motion from two images- Affine structure and motion from multiple images- From Affine to Euclidean images. High level vision- Geometric methods- Model based vision- Obtaining hypothesis by pose consistency, pose clustering and using Invariants, Verification.",
+        "Module 3: Bayesian Decision Theory Bayesian Decision Theory- Minimum error rate classification Classifiers, discriminant functions, decision surfaces- The normal density and discriminant-functions for the Normal density.",
+        "Module 4: Introduction to Digital Image Processing Introduction to Digital Image Processing- fundamental steps in Digital Image Processing, relationship between pixels, intensity transformations and spatial filtering: basic intensity transformation functions, histogram processing, spatial filtering, smoothing and sharpening filters Probabilistic Modelling and Fuzzy Image Processing: Introduction of Probabilistic Modelling in Computer Vision, why probabilistic models, Object recognition as probabilistic modelling, Introduction, Fuzzy image understanding, Fuzzy image processing systems, Theoretical components of fuzzy image processing.",
+        "Module 5: Processing on Images Image restoration: noise models, restoration in the presence of noise only, periodic noise reduction. Image compression: fundamentals, compression models and standards, basic compression methods: Huffman coding, arithmetic coding, LZW coding, run-length coding. Image segmentation: point, line and edge detection, thresholding region based segmentation Case Study: Any two applications-Object Recognition with Intelligent Cameras/ Fast 3-D Full Body Scanning for Humans and Other Objects/ Motion Tracking/ Multicolour Classification of Astronomical Objects. :COMPUTER SCIENCE AND ENGINEERING-CS1"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Computer Vision, IIT Kharagpur",
+            "url": "https://www.nptel.ac.in/courses/106105216"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Computer Vision, IIT Kharagpur",
+            "url": "https://www.nptel.ac.in/courses/106105216"
+          }
+        ]
+      },
+      "curation_note": "Covers image formation, geometry, image processing, feature extraction, scene understanding and deep-learning approaches."
+    },
+    {
+      "code": "222ECS004",
+      "name": "SEMANTIC WEB ARCHITECTURE",
+      "modules": [
+        "Module 1 : Introduction to semantic web technology: Traditional web to semantic web-WWW- First Look at the Semantic Web – meta data- Search Engine for the Traditional Web- Search Engine for the Semantic Web",
+        "Module 2: Resource Description Framework Elements - Resource – Property- Statement -rules of RDF – tools- RDFS core elements-- Syntax and Examples - More about Properties - XML Schema and RDF Schema –Taxonomy and ontology concepts.",
+        "Module 3: Web ontology language: OWL: Define classes- set operators –enumerations- defining properties- Symmetric Properties- Transitive Properties- Functional Properties- Inverse Property- Inverse Functional Property- Validating OWL ontology- Related Development Tools- Validate OWL Ontology by Using Web Utilities- Using Programming APIs to Understand OWL Ontology.",
+        "Module 4: Web services and Real world examples: Web services – web services standards – web services to semantic web services- UDDI. Swoogle- architecture and usage of meta data; FOAF – vocabulary – creating documents – overview of semantic markup – semantic web search engines- Implementation Details.",
+        "Module 5: Concept of OWL-S – building blocks of OWL-S- OWL-S Profile Ontology- OWL-S Process Ontology- OWL-S Grounding Ontology - mapping OWL-S to UDDI - WSDL :COMPUTER SCIENCE AND ENGINEERING-CS1"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "W3C — OWL 2 Web Ontology Language Primer",
+            "url": "https://www.w3.org/TR/owl-primer/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "MIT OCW — Web services / Semantic Web lecture material",
+            "url": "https://ocw.mit.edu/courses/15-564-information-technology-i-spring-2003/"
+          }
+        ]
+      },
+      "curation_note": "Use W3C as the authoritative reference for OWL/RDF and MIT material for Semantic Web/Web Services context."
+    },
+    {
+      "code": "222ECS005",
+      "name": "PROGRAM ANALYSIS",
+      "modules": [
+        "Module 1 - Mathematical Foundations for Program Analysis –Revision of Partially Ordered Sets, Lattice, Chains, Fixed Points, Knaster-Tarski Fixed Point Theorem, Galois Connections and their properties, Introduction to Program Analysis.",
+        "Module 2- Data Flow Analysis / Abstract Interpretation Collecting Semantics, Abstract Interpretation, Join Over all Paths, Abstract Interpretation for Constant propagation, Correctness of Abstract Interpretation, Kildall’s algorithm.",
+        "Module 3- Interprocedural Analysis Call Strings approach, Join OverInterprocedurally Valid Paths, Sharir and Pneuli’s approaches to Interprocedural Analysis, Functional Approach.",
+        "Module 4 - Pointer Analysis, PDGs and Slicing Pointer Analysis, Program Dependence Graph, Computing a Program Slice.",
+        "Module 5 - Simply Typed Lambda Calculus Introduction to Lambda Calculus, Type Systems, Algorithms for Type Checking."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "MIT OCW — Fundamentals of Program Analysis: Lecture Notes",
+            "url": "https://ocw.mit.edu/courses/6-820-fundamentals-of-program-analysis-fall-2015/pages/lecture-notes/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "MIT OCW — Fundamentals of Program Analysis",
+            "url": "https://ocw.mit.edu/courses/6-820-fundamentals-of-program-analysis-fall-2015/"
+          }
+        ]
+      },
+      "curation_note": "Excellent match for data-flow analysis, abstract interpretation, interprocedural analysis, pointer analysis, slicing and type systems."
+    },
+    {
+      "code": "222ECS006",
+      "name": "BLOCKCHAIN TECHNOLOGY AND IOT",
+      "modules": [
+        "Module 1: Introduction to IoT Sensor basics, sensing and actuation, basics of networking - wired, wireless, MANET, PAN, wireless and wired protocols, Communication protocols - IEEE standards, 5G era, sensor communications, connectivity challenges, fading and attenuations.",
+        "Module 2: IoT Architecture and Programming basic architectures, Data processing mechanisms, scalability issues and visualization issues, analytic basics, utility of cloud computing, fog computing, edge computing, Raspberry Pi and Arduino programming, Applications- IoT for industrial automation (Industry 4.0).",
+        "Module 3: Introduction to Blockchain Blockchain concepts, evolution, structure and characteristics, benefits and challenges, Blockchain as public ledgers - Transactions, Elements of Cryptography - Cryptographic Hash functions, Merkle Tree.",
+        "Module 4: Blockchain architecture and Use Cases Design methodology for Blockchain applications, Blockchain application templates, Blockchain application development, Ethereum, Solidity,Bitcoin, Sample use cases from Industries,Business problems.",
+        "Module 5: Smart Contracts and Decentralized Applications (DApps) Smart contract smart contract examples, structure of a contract, smart contract examples, smart contract patterns, implementing Dapps, Ethereum Dapps, case studies related to Dapps."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Blockchain and its Applications",
+            "url": "https://archive.nptel.ac.in/content/syllabus_pdf/106105235.pdf"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Blockchain and its Applications, IIT Kharagpur",
+            "url": "https://www.nptel.ac.in/courses/106105235"
+          }
+        ]
+      },
+      "curation_note": "Use this for blockchain fundamentals, consensus, Ethereum, Hyperledger, smart contracts and applications; pair with NPTEL IoT for the IoT half."
+    },
+    {
+      "code": "222ECS007",
+      "name": "SOCIAL NETWORK ANALYSIS",
+      "modules": [
+        "Module 1: Introduction Introduction to Social Network Data Analytics: Introduction, Online Social Networks: Research Issues, Research Topics in Social Networks. Statistical Properties of Social Networks: Preliminaries, Static Properties, Dynamic Properties. Random Walks in Social Networks and their Applications: Random Walks on Graphs: Background, Application in Computer Vision, Text Analysis, Collaborative Filtering.",
+        "Module 2: Evolution in Social Networks Evolution in Social Networks: Framework, Challenges of Social Network Streams, Incremental Mining for Community Tracing, Tracing Smoothly Evolving Communities. Models and Algorithms for Social Influence Analysis: Influence Related Statistics, Social Similarity and Influence. Privacy in Social Networks: Privacy breaches in social networks, Privacy-preserving mechanisms.",
+        "Module 3: Visualizing Social Networks Visualizing Social Networks: A Taxonomy of Visualizing Social Networks: A Taxonomy of Visualizations. Data Mining in Social Media: Methods for Social Media, Ethnography and Netnography, Event Maps. Text Mining in Social Networks: Keyword Search, Classification and Clustering Algorithms, Transfer Learning in Heterogeneous Networks. :COMPUTER SCIENCE AND ENGINEERING-CS1",
+        "Module 4: Mining Communities Aggregating and reasoning with social network data, Advanced Representations - Extracting evolution of Web Community from a Series of Web Archive -Detecting Communities in Social Networks - Evaluating Communities – Core Methods for Community Detection & Mining - Applications of Community Mining Algorithms - Node Classification in Social Networks",
+        "Module 5: Multimedia Information Networks in Social Media Multimedia Information Networks in Social Media: Links from Semantics, Links from Community Media. Network of Personal Photo Albums, Geographical Information, Inference Methods. Social Tagging and Applications: Tags: Why What, Tagging System Design, Tag analysis, Visualization of Tags, Applications of Tags."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Social Network Analysis syllabus",
+            "url": "https://archive.nptel.ac.in/content/syllabus_pdf/106106239.pdf"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Social Network Analysis, IIT Delhi",
+            "url": "https://www.nptel.ac.in/courses/106106239"
+          }
+        ]
+      },
+      "curation_note": "Current material covers network measures, growth models, link analysis, community detection, link prediction, cascades, anomaly detection and graph representation learning."
+    },
+    {
+      "code": "222ECS008",
+      "name": "MODERN DATABASE MANAGEMENT",
+      "modules": [
+        "Module 1: NoSQL Databases Review of Distributed Databases- Fragmentation, Replication, Transparencies in design, CAP theorem- BASE transactions and eventual consistency, consistent hashing, object versioning & vector clocks, Consensus algorithms, Logging & Snapshots, Properties of NoSQL databases, Types of NoSQL Databases.",
+        "Module 2: Document based databases MongoDB- Documents- JSON & BSON format, representing relationships, CRUD operations, Indexing, Aggregation, Sharding architecture and Replication strategies, consistency and locking.",
+        "Module 3: Spatial Databases Types of Spatial Data and Queries- Point and Region Data- Queries, Spatial Indexing: Space Filling Curves- Z ordering, Quad Trees, R-Trees, Geospatial queries & geospatial indexes in MongoDB.",
+        "Module 4: Column databases Column family, Cassandra Architecture-Gossiping, Snitches, Rings and Tokens, Virtual Nodes, Replication Strategies, Consistency, Hinted handoff, Lightweight Transactions, Bloom filter, Compaction; Fault tolerance, Caching, SSTable & MemTable, Cassandra Query Language",
+        "Module 5: Graph Databases Neo4j- Introduction, Example graphs, Data Modeling, Traversal, Indexing, Features, operations, Cypher Queries- Create, Match clause."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "MongoDB Documentation",
+            "url": "https://www.mongodb.com/docs/"
+          },
+          {
+            "title": "Apache Cassandra Documentation",
+            "url": "https://cassandra.apache.org/doc/stable/"
+          },
+          {
+            "title": "Neo4j Documentation",
+            "url": "https://neo4j.com/docs/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Cloud Computing and Distributed Systems",
+            "url": "https://www.nptel.ac.in/courses/106104182"
+          }
+        ]
+      },
+      "curation_note": "The syllabus is technology-specific: MongoDB, Cassandra and Neo4j. Official docs are the most reliable implementation notes; NPTEL supplies distributed-systems theory."
+    },
+    {
+      "code": "222ECS009",
+      "name": "DISTRIBUTED ALGORITHMS",
+      "modules": [
+        "Module 1: Synchronous distributed computing system Synchronous distributed computing system, Leader Election in a Synchronous Ring, LCR algorithm, HS algorithm, Time Slice Algorithm, Variable Speeds Algorithm, Lower Bound for Comparison-Based Algorithms.",
+        "Module 2: Algorithms in General Synchronous Networks Algorithms in General Synchronous Networks. Leader election in a General Network - Simple Flooding Algorithm, Basic Breadth- First Search Algorithm, Bellman-Ford algorithm, Minimum Spanning Tree, Maximal Independent Set, LubyMIS algorithm.",
+        "Module 3: Distributed Consensus Distributed Consensus, Distributed Consensus with Link Failures – The coordinated Attack Problem- Deterministic version, Randomized version. Distributed Consensus with Process Failures and Process Failures. Algorithms for stopping Failures, Algorithms for Byzantine Failure. Byzantine agreement in general graphs. Weak Byzantine agreement. Consensus Problems-K Agreement, Approximate Agreement, Commit Problem.",
+        "Module 4: Asynchronous distributed computing system Asynchronous distributed computing system, Asynchronous Network Model - Send/Receive systems, Broadcast systems, Multicast systems. Asynchronous Network algorithms- Peterson Leader-Election Algorithm, Local Synchronizer, Safe Synchronizer.",
+        "Module 5: Asynchronous Shared Memory Systems Asynchronous Shared Memory Systems, Environment Model, Shared Variable Types. Mutual Exclusion - Asynchronous Shared Memory Model, Dijkstra's Mutual Exclusion Algorithm. Resource Allocation - Nonexistence of Symmetric Dining Philosophers Algorithms, Right-Left Dining Philosophers Algorithm, Mutual exclusion and Consensus, Relationship between shared memory and network models. :COMPUTER SCIENCE AND ENGINEERING-CS1"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "MIT OCW — Distributed Computer Systems Engineering: Lecture Notes",
+            "url": "https://www.ocw.mit.edu/courses/6-824-distributed-computer-systems-engineering-spring-2006/resources/lecture-notes/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Distributed Systems",
+            "url": "https://onlinecourses-archive.nptel.ac.in/noc17_cs42/preview"
+          }
+        ]
+      },
+      "curation_note": "Strong match for leader election, logical time, mutual exclusion, consensus and distributed-system models."
+    },
+    {
+      "code": "222ECS010",
+      "name": "CYBER FORENSICS AND INFORMATION SECURITY",
+      "modules": [
+        "Module 1: Introduction to Computer Forensics Computer Forensics Fundamentals, Types of Computer Forensics Technology – Types of Computer Forensics Systems-Data Recovery and Evidence Collection– Forensic duplication and preservation of DE, Understanding Computer Investigation.",
+        "Module 2: Evidence Data Gathering Data Acquisition. - Data Recovery- Evidence Collection and Data Seizure - Duplication and Preservation of Digital Evidence.",
+        "Module 3: Investigations Network Traffic , Web Attacks, Router Forensics, DoS Attacks and Internet Crime.",
+        "Module 4: Evidence Data Analysis Discovery of Electronic Evidence - Identification of Data - Determining and Validating Forensics Data – Data Hiding Techniques – Performing Remote Acquisition– Cell Phone and Mobile Devices Forensics- Processing Crime and Incident Scenes.",
+        "Module 5: Forensics Tools and Case Studies Working with Windows and DOS Systems. - Understanding File systems, Exploring Microsoft file structures, Examining NTFS disks, Understanding whole disk encryption, windows registry, Microsoft start-up tasks. Current Computer Forensics Tools: Software/ Hardware Tools. Computer forensics investigation – A case study"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NIST — Digital Forensics",
+            "url": "https://www.nist.gov/programs-projects/digital-forensics"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Internet Crimes and Cyber Security",
+            "url": "https://www.nptel.ac.in/courses/129106894"
+          }
+        ]
+      },
+      "curation_note": "NIST is a high-authority source for evidence handling; the NPTEL course supplies investigation, cybercrime and digital-forensics lectures."
+    },
+    {
+      "code": "222ECS011",
+      "name": "SOFTWARE TESTING",
+      "modules": [
+        "Module 1: Testing Fundamentals Introduction, black box testing, white box testing, static black box testing, dynamic black box testing, static white box testing, dynamic white box testing.",
+        "Module 2: Introduction to JUnit Introduction to Unit Testing in Java, Test Class, Test Method, Assertions, JUnit Life Cycle API, Test Execution, JUnit Test Framework.",
+        "Module 3: Introduction to Selenium Introduction, Selenium methods, Verification Point in Selenium, Shared UI Maps, Using functions, Using a configuration file, Data Driven Testing, UI Objects, Debugging, Exception Handling, Reporting, Batch Execution, Continuous Integration with Jenkins.",
+        "Module 4: Coverage Guided Fuzzing Using American Fuzzy Lop (AFL) Basic test input generation, AFL as a grey box fuzzer, Characteristics of retained test cases, vulnerability detection, Measuring the code coverage, AFL algorithm.",
+        "Module 5: Bounded Model Checking with CBMC Principles of BMC, The CBMC tool, Applications of BMC, CBMC Hands on."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Software Testing",
+            "url": "https://www.nptel.ac.in/courses/106105150"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Software Testing, IIT Kharagpur",
+            "url": "https://www.nptel.ac.in/courses/106105150"
+          }
+        ]
+      },
+      "curation_note": "Covers testing fundamentals, black/white-box testing, integration, regression and test design. Add official AFL/CBMC documentation for the tool-specific modules."
+    },
+    {
+      "code": "222ECS056",
+      "name": "COMPUTER SCIENCE AND ENGINEERING-CS1 CODE COURSE NAME",
+      "modules": [
+        "Module Contents Hours I Overview of machine learning: supervised, semi-supervised, unsupervised learning, reinforcement learning. Types of ML problems: Classification, Clustering and Regression, Cost functions: Definition and Types, Data PreProcessing, Bias-Variance trade off, Cross validation techniques, Classifier performance measures, ROC Curves 6 II Introduction to neural network : Linear Regression, Least square Gradients, Logistic Regression, Sigmoid function &amp; differentiation, Logistic Regression – Regularization, Neural Networks – Concept of perceptron and Artificial neuron, Weight initialization techniques, Feed Forward Neural Network, Back Propagation algorithm 8 III Classification Methods : Support Vector Machine, Optimal Separating hyper plane, Kernel trick, Kernel functions, Gaussian class conditional distribution, Bayes Rule, Naïve Bayes Model, Decision Tree – ID3, Maximum Likelihood estimation techniques 8 :COMPUTER SCIENCE AND ENGINEERING-CS1 IV Clustering Methods: K-means clustering , Hierarchical clustering techniques, Density Based clustering, Feature Selection techniques: Entropy, Correlation Coefficient, Chi-square Test, Forward &amp; Backward Selection, Dimensionality Reduction: PCA, LDA, t- SNE 7 V Basics of graphical models - Bayesian networks, Hidden Markov model, Ensemble methods – Boosting, Bagging, Random forest, XGBoost (Case study) 6 Lesson Plan 1 Introduction to machine learning (Hours: 6) 1.1 Overview of machine learning: supervised, semi-supervised, unsupervised learning, reinforcement learning 1 1.2 Types of ML problems: Classification, Clustering and Regression 1 1.3 Cost functions: Definition and Types 1 1.4 Data PreProcessing, Bias-Variance trade off 1 1.5 Cross validation techniques 1 1.6 Classifier performance measures, ROC Curves 1 2 Introduction to neural network (Hours: 8) 2.1 Linear Regression, Least square Gradients 1 2.2 Logistic Regression 1 2.3 Sigmoid function & differentiation 1 2.4 Logistic Regression - Regularization 2.5 Neural Networks – Concept of perceptron and Artificial neuron 1 2.6 Weight initialization techniques 1 2.7 Feed Forward Neural Network 1 2.8 Back Propagation algorithm 1 3 Classification Methods (Hours: 8) 3.1 Support Vector Machine 1 3.2 Optimal Separating hyper plane 1 3.3 Kernel trick, Kernel functions 1 3.4 Gaussian class conditional distribution 1 3.5 Bayes Rule 1 3.6 Naïve Bayes Model 1 3.7 Decision Tree – ID3, 1 3.8 Maximum Likelihood estimation techniques 1 4 Clustering Methods (Hours: 7) 4.1 K-means clustering 1 4.2 Hierarchical clustering techniques 1 4.3 BIRCH 1 4.4 Density Based clustering 1 4.5 Feature Selection techniques: Entropy, Correlation Coefficient, Chi-square Test 1 4.6 Forward & Backward Selection 1 4.5 Dimensionality Reduction: PCA 1 4.6 LDA 1 :COMPUTER SCIENCE AND ENGINEERING-CS1 4.7 t-SNE 1 5 Basics of graphical models (Hours: 6) 5.1 Basics of graphical models - Bayesian networks 1 5.2 Hidden Markov model 1 5.3 Ensemble methods - Boosting 1 5.4 Bagging 1 5.5 Random forest 1 5.6 XGBoost (Case study) 1 Reference Books 1. Ethem Alpaydın, “Introduction to Machine Learning (Adaptive Computation and Machine Learning)”, MIT Press, 2004. 2. Kevin Murphy, Machine Learning: A Probabilistic Perspective (MLAPP), MIT Press, 2012 3. Han, Jiawei, and Micheline Kamber. Data Mining: Concepts and Techniques. San Francisco: Morgan Kaufmann Publishers 4. Christopher M. Bishop, “Pattern Recognition and Machine Learning”, Springer, 2006 :COMPUTER SCIENCE AND ENGINEERING-CS1 CODE COURSE NAME CATEGORY L T P CREDIT"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Introduction to Machine Learning",
+            "url": "https://onlinecourses-archive.nptel.ac.in/noc17_cs26/preview"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Introduction to Machine Learning",
+            "url": "https://www.nptel.ac.in/courses/106105152"
+          }
+        ]
+      },
+      "curation_note": "Matches regression, classification, clustering and core ML concepts."
+    },
+    {
+      "code": "222ECS057",
+      "name": "COMPUTER SCIENCE AND ENGINEERING-CS1 CODE COURSE NAME",
+      "modules": [
+        "Module Contents Hours I Basic Concepts of Data Structures System Life Cycle, Algorithms, Performance Analysis, Space complexity, Time Complexity, Asymptotic Notation, Complexity Calculation of Simple Algorithms 5 II Arrays and Searching Polynomial representation using Arrays, Sparse matrix, Stacks, Queues, Circular Queues, Priority Queues, Double Ended Queues, Evaluation of Expressions, Linear Search and Binary Search 9 III Linked List and Memory Management Self Referential Structures, Dynamic Memory Allocation, Singly Linked List-Operations on Linked List, Doubly Linked List, Circular Linked List, Stacks and Queues using Linked List, Polynomial representation using Linked List, Memory allocation and de-allocation, 8 IV Trees, Binary Trees-Tree Operations, Binary Tree Representation, Tree Traversals, Graphs- Representation of Graphs, Depth First Search and Breadth First Search on Graphs, Applications of Graphs 7 V Searching Techniques – Linear search , Binary search Sorting Techniques – Selection Sort, Insertion Sort, Quick Sort, Merge Sort and Heap Sort 5"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Data Structures and Algorithms",
+            "url": "https://www.nptel.ac.in/courses/106102064"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Design and Analysis of Algorithms",
+            "url": "https://www.nptel.ac.in/courses/106106131"
+          }
+        ]
+      },
+      "curation_note": "Covers arrays, lists, trees, graphs, sorting, hashing and algorithmic foundations."
+    },
+    {
+      "code": "222ECS058",
+      "name": "CODE 223AG E100 ACADEMIC WRITING",
+      "modules": [
+        "module of which student should answer any five. Each question can carry 7 marks Total duration of the examination will be 150 minutes. Note: The marks obtained for the ESE for an elective course shall not exceed 20% over the average ESE mark % for the core courses. ESE marks awarded to a student for each elective course shall be normalized accordingly. :COMPUTER SCIENCE AND ENGINEERING-CS1 For example if the average end semester mark % for a core course is 40, then the maximum eligible mark % for an elective course is 40+20 = 60 %. Course Level Assessment Questions Course Outcome 1 (CO1): 1. What are the advantages of an incremental development model over a waterfall model? 2. Illustrate how the process differs in agile software development and traditional software development with a socially relevant case study. (Assignment question) Course Outcome 2 (CO2): 1. How to prepare a software requirement specification? 2. Differentiate between Architectural design and Component level design. 3. How does agile approaches help software developers to capture and define the user requirements effectively? 4. What is the relevance of the SRS specification in software development? 5. Prepare a use case diagram for a library management system. Course Outcome 3 (CO3): 1. Differentiate between the different types of software testing strategies. 2. Justify the need for DevOps practices? 3. How do design patterns help software architects communicate the design of a complex system effectively? 4. What are the proactive approaches one can take to optimise efforts in the testing phase? Course Outcome 4 (CO4): 1. Illustrate the activities involved in software project management for a socially relevant problem? 2. How do SCRUM, Kanban and Lean methodologies help software project management? 3. Is rolling level planning in software project management beneficial? Justify your answer. 4. How would you assess the risks in your software development project? Explain how you can manage identified risks? :COMPUTER SCIENCE AND ENGINEERING-CS1 Course Outcome 5 (CO5): 1. Justify the importance of Software Process improvement? 2. Explain the benefits of cloud based software development, containers and microservices. 3. Give the role of retrospectives in improving the software development process. 4. Illustrate the use of project history data as a prediction tool to plan future socially relevant projects. Model Question Paper Reg No: _______________ Name: _________________ PAGES : 4 APJ ABDUL KALAM TECHNOLOGICAL UNIVERSITY SECOND SEMESTER M.TECH DEGREE EXAMINATION, MONTH & YEAR Course Code: 222CS058 Course Name: SOFTWARE PROJECT MANAGEMENT Max. Marks: 60 Duration: 2.5 Hours PART A Answer All Questions. Each Question Carries 5 Marks 1. Explain Agile ceremonies and Agile manifesto. 2. Compare Software Architecture design and Component level design 3. Describe the formal and informal review techniques 4. Explain plan driven development and project scheduling. 5. Illustrate SPI process with an example. (5x5=25) Part B (Answer any five questions. Each question carries 7 marks) 6. Illustrate software process activities with an example. (7) 7. What are functional and nonfunctional requirements? Imagine that you are developing a library management software for your college, list eight functional requirements and four nonfunctional requirements. (7) :COMPUTER SCIENCE AND ENGINEERING-CS1 8. Explain Continuous Integration, Delivery, and Deployment CI/CD/CD) (7) 9. What is a critical path and demonstrate its significance in a project schedule with the help of a sample project schedule. (7) 10. What is algorithmic cost modeling? What problems does it suffer from when compared with other approaches to cost estimation? (7) 11. Explain elements of Software Quality Assurance and SQA Tasks. (7) 12. Compare CMMI and ISO 9001:2000. (7) Syllabus",
+        "Module 1 : Introduction to Software Engineering (7 hours) Introduction to Software Engineering - Professional software development, Software engineering ethics. Software process models - The waterfall model, Incremental development. Process activities - Software specification, Software design and implementation, Software validation, Software evolution. Coping with change - Prototyping, Incremental delivery, Boehm's Spiral Model. Agile software development - Agile methods, agile manifesto - values and principles. Agile development techniques, Agile Project Management. Case studies : An insulin pump control system. Mentcare - a patient information system for mental health care.",
+        "Module 2 : Requirement Analysis and Design (8 hours) Functional and non-functional requirements, Requirements engineering processes. Requirements elicitation, Requirements validation, Requirements change, Traceability Matrix. Developing use cases, Software Requirements Specification Template, Personas, Scenarios, User stories, Feature identification. Design concepts - Design within the context of software engineering, Design Process, Design concepts, Design Model. Architectural Design - Software Architecture, Architectural Styles, Architectural considerations, Architectural Design Component level design - What is a component?, Designing Class-Based Components, Conducting Component level design, Component level design for web-apps. Template of a Design Document as per “IEEE Std 1016-2009 IEEE Standard for Information Technology Systems Design Software Design Descriptions”. Case study: The Ariane 5 launcher failure.",
+        "Module 3 : Implementation and Testing (9 hours) Object-oriented design using the UML, Design patterns, Implementation issues, Open- source development - Open-source licensing - GPL, LGPL, BSD. Review Techniques - Cost impact of Software Defects, Code review and statistical analysis. Informal Review, :COMPUTER SCIENCE AND ENGINEERING-CS1 Formal Technical Reviews, Post-mortem evaluations. Software testing strategies - Unit Testing, Integration Testing, Validation testing, System testing, Debugging, White box testing, Path testing, Control Structure testing, Black box testing, Testing Documentation and Help facilities. Test automation, Test-driven development, Security testing. Overview of DevOps and Code Management - Code management, DevOps automation, Continuous Integration, Delivery, and Deployment (CI/CD/CD). Software Evolution - Evolution processes, Software maintenance.",
+        "Module 4 : Software Project Management (6 hours) Software Project Management - Risk management, Managing people, Teamwork. Project Planning, Software pricing, Plan-driven development, Project scheduling, Agile planning. Estimation techniques, COCOMO cost modeling. Configuration management, Version management, System building, Change management, Release management, Agile software management - SCRUM framework. Kanban methodology and lean approaches."
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "NPTEL — Software Engineering",
+            "url": "https://onlinecourses.nptel.ac.in/e-learning/preview/noc25_cs108"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Software Project Management",
+            "url": "https://www.nptel.ac.in/courses/106105218"
+          }
+        ]
+      },
+      "curation_note": "Good combination for development processes, requirements/design/testing, project planning, quality, Agile/Scrum and management."
+    },
+    {
+      "code": "221LCS100",
+      "name": "Computing Lab 1",
+      "type": "laboratory",
+      "modules": [],
+      "resources": {
+        "notes": [
+          {
+            "title": "Use the syllabus experiment list + primary course resources",
+            "url": "https://www.nptel.ac.in/courses/106105152"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL ML lectures",
+            "url": "https://www.nptel.ac.in/courses/106105152"
+          }
+        ]
+      },
+      "curation_note": "The syllabus lab covers ID3, Naive Bayes, Bayesian networks, EM, K-means, KNN, regression, cross-validation, SVM, ANN/backprop, RNN/LSTM and Colab."
+    },
+    {
+      "code": "222LCS100",
+      "name": "Computing Lab 2",
+      "type": "laboratory",
+      "modules": [],
+      "resources": {
+        "notes": [
+          {
+            "title": "MIT Database Systems notes",
+            "url": "https://ocw.mit.edu/courses/6-830-database-systems-fall-2010/pages/lecture-notes/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "MIT Database Systems",
+            "url": "https://ocw.mit.edu/courses/6-830-database-systems-fall-2010/"
+          }
+        ]
+      },
+      "curation_note": "The lab is database-focused; use the theory/elective resources relevant to the DBMS being implemented."
+    },
+    {
+      "code": "222PCS100",
+      "name": "Mini Project",
+      "type": "project",
+      "modules": [],
+      "resources": {
+        "notes": [
+          {
+            "title": "GitHub Skills",
+            "url": "https://skills.github.com/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL — Software Engineering",
+            "url": "https://onlinecourses.nptel.ac.in/e-learning/preview/noc25_cs108"
+          }
+        ]
+      },
+      "curation_note": "Use this as the project-work hub rather than a conventional lecture subject: requirements, design, implementation, testing, Git/GitHub and documentation."
+    },
+    {
+      "code": "223Pxx100/223Pxx001",
+      "name": "Dissertation / Research Project Phase I",
+      "type": "research",
+      "modules": [
+        "Literature study/survey",
+        "Topic selection and proposal",
+        "Objectives",
+        "Research and planning",
+        "Work plan",
+        "Execution",
+        "Documentation and reporting",
+        "Project showcase"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "Google Scholar",
+            "url": "https://scholar.google.com/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL course catalogue",
+            "url": "https://nptel.ac.in/courses"
+          }
+        ]
+      },
+      "curation_note": "The syllabus treats Phase I as research/project work rather than a conventional taught subject."
+    },
+    {
+      "code": "224PBT100",
+      "name": "Dissertation Phase II",
+      "type": "research",
+      "modules": [
+        "Literature study/survey",
+        "Topic selection and proposal",
+        "Objectives",
+        "Research and planning",
+        "Work plan",
+        "Execution",
+        "Documentation and reporting",
+        "Project showcase"
+      ],
+      "resources": {
+        "notes": [
+          {
+            "title": "Google Scholar",
+            "url": "https://scholar.google.com/"
+          }
+        ],
+        "lectures": [
+          {
+            "title": "NPTEL course catalogue",
+            "url": "https://nptel.ac.in/courses"
+          }
+        ]
+      },
+      "curation_note": "Use field-specific papers, books and courses after the dissertation topic is chosen."
+    }
+  ],
+  "semester_iii_audit_courses": [
+    {
+      "code": "223AGE100",
+      "name": "Academic Writing"
+    },
+    {
+      "code": "223AGE001",
+      "name": "Advanced Engineering Materials"
+    },
+    {
+      "code": "223AGE002",
+      "name": "Forensic Engineering"
+    },
+    {
+      "code": "223AGE003",
+      "name": "Data Science for Engineers"
+    },
+    {
+      "code": "223AGE004",
+      "name": "Design Thinking"
+    },
+    {
+      "code": "223AGE005",
+      "name": "Functional Programming in Haskell"
+    },
+    {
+      "code": "223AGE006",
+      "name": "French Language (A1 Level)"
+    },
+    {
+      "code": "223AGE007",
+      "name": "German Language (A1 Level)"
+    },
+    {
+      "code": "223AGE008",
+      "name": "Japanese Language (N5 Level)"
+    },
+    {
+      "code": "223AGE009",
+      "name": "Principles of Automation"
+    },
+    {
+      "code": "223AGE010",
+      "name": "Reuse and Recycle Technology"
+    },
+    {
+      "code": "223AGE011",
+      "name": "System Modeling"
+    },
+    {
+      "code": "223AGE012",
+      "name": "Expert Systems"
+    }
+  ]
+}
